@@ -1,0 +1,40 @@
+Q1) Which are legal?
+A) var x;
+B) var x = 99;
+C) private var x = "Hello";
+D) var x;
+   x = 100;
+E) var [] x = {1, 3, 5};
+
+Q2) Given:
+public void doStuff(int [] ia) { /* ... */ }
+
+which are legal invocations?
+
+A) int [] ia = null;
+   doStuff(ia);
+B) doStuff({1, 2, 3})
+C) doStuff(int[]{1, 2, 3});
+D) doStuff(new int[]{1, 2, 3});
+
+Q) Which print true?
+A) var x = "Hello";
+   var y = "Hello";
+   sout(x == y);
+
+B) var x = "Hello";
+   var y = "Hello";
+   sout(x.equals(y));
+
+C) var x = new StringBuilder("Hello");
+   var y = "Hello";
+   sout(x.equals(y));
+
+D) var x = new StringBuilder("Hello");
+   var y = new StringBuilder("Hello");
+   sout(x.equals(y));
+
+
+
+
+
