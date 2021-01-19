@@ -2,9 +2,11 @@ Resources
 ---------
 
 Quiztool:
-http://ubuntu@ec2-54-191-237-229.us-west-2.compute.amazonaws.com/quiz-tool/
+http://ec2-54-184-61-184.us-west-2.compute.amazonaws.com:8080/quiz-tool/
+(Note, this is http only *not* https)
+
 Github repo (remember this will vanish in two weeks)
-https://github.com/SimonHGR/SafariJava11Cert
+https://github.com/SimonHGR/SafariJavaCert
 
 Recording
  - about 24 hours
@@ -18,7 +20,11 @@ Pre-recorded video (~20 hours)
  - Other videos:
  - Functional programming with Java: https://learning.oreilly.com/videos/functional-programming-for/9780134778235
  - Java Collections: https://learning.oreilly.com/videos/modern-java-collections/9780134663524
- - And several other live classes
+
+Safari Live classes:
+ - Java Generics in 4 hours
+ - Functional Java for Big Data
+ - Essentials of JVM Threading
 
 Oracle Java Magazine
  - https://blogs.oracle.com/javamagazine/
@@ -35,6 +41,8 @@ Java Ranch / Code Ranch
 Books
  - Sierra and Bates: https://learning.oreilly.com/library/view/oca-java-se/9781260011388/
  - Not Java 11 yet (some others are)
+Oracle's Secure Coding Guidelines
+ - https://www.oracle.com/java/technologies/javase/seccodeguide.html
 
 Java 11 API documentation:
  - https://docs.oracle.com/en/java/javase/11/docs/api/index.html
