@@ -34,6 +34,47 @@ D) var x = new StringBuilder("Hello");
    var y = new StringBuilder("Hello");
    sout(x.equals(y));
 
+Q) Which compile?
+A) int x = 0;
+   if (x) { sout("true"); }
+
+B) boolean x = false;
+   if (x) { sout("true"); }
+
+C) Boolean x = false;
+   if (x) { sout("true"); }
+
+D) if (Math.random() > 5) {
+     sout("Big!");
+   } elif (Math.random() > 2) {
+     sout("not so big");
+   } else sout("dunno");
+
+Q) Which compile?
+
+A) int x = 99;
+   switch(x) {
+   case 99: sout("99");
+   default: sout("something else");
+   }
+
+B) long x = 99;
+   switch(x) {
+   case 99: sout("99");
+   }
+
+C) String x = "99";
+   switch(x) {
+   case "99": sout("99");
+   default: sout("something else");
+   }
+
+D) StringBuilder x = new StringBuilder("99");
+   switch(x) {
+   case 99: sout("99");
+   default: sout("something else");
+   }
+
 
 
 
