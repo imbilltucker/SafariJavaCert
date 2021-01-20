@@ -30,7 +30,7 @@ Oracle Java Magazine
  - https://blogs.oracle.com/javamagazine/
  - https://blogs.oracle.com/javamagazine/issue-archives
  - Look for the "fix this" column in the older style issues, focused on exam-like questions with discussions of the answers and how to think about the questions
- 
+
 Java Ranch / Code Ranch
  - Forum site that's actually helpful to learners
  - Created for, and still heavily focused on, certification
