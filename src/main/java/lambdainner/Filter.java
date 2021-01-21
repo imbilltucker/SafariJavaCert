@@ -3,8 +3,10 @@ package lambdainner;
 import java.util.ArrayList;
 import java.util.List;
 
+@FunctionalInterface
 interface Criterion<E> {
   boolean test(E e);
+//  void bad();
 }
 
 class LongString implements Criterion<String> {
@@ -55,5 +57,6 @@ public class Filter {
       }
     });
     System.out.println(firstHalfNames);
+    Criterion<String> cs = (String s) -> s.length() > 0;
   }
 }
